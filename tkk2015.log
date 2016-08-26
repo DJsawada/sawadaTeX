@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.1415926-p3.4-110825-2.6 (utf8.euc) (TeX Live 2013/Debian) (format=platex 2015.11.24)  23 AUG 2016 13:43
+This is e-pTeX, Version 3.1415926-p3.4-110825-2.6 (utf8.euc) (TeX Live 2013/Debian) (format=platex 2015.11.24)  25 AUG 2016 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -174,12 +174,6 @@ LaTeX Warning: Label `fig:kinshi' multiply defined.
 
 LaTeX Warning: Label `fig:kinshi' multiply defined.
 
-
-LaTeX Warning: Label `fig:kinshi' multiply defined.
-
-
-LaTeX Warning: Label `fig:kinshi' multiply defined.
-
 )
 \openout1 = `tkk2015.aux'.
 
@@ -251,36 +245,9 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 51.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 51.
-runsystem(extractbb sukusho.png)...disabled (restricted).
+File: hoge.eps Graphic file (type eps)
 
-
-
-! LaTeX Error: File `sukusho.xbb' not found. Use -shell-escape option to genera
-te automatically.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \includegraphics[width=90mm]{sukusho.png}
-                                                
-? r
-OK, entering \nonstopmode...
-
-! LaTeX Error: Cannot determine size of graphic in sukusho.xbb (no BoundingBox)
-.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60   \includegraphics[width=90mm]{sukusho.png}
-                                                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: sukusho.png Graphic file (type bmp)
-<sukusho.png> [1
+<hoge.eps> [1
 
 ]
 runsystem(extractbb yomi.png)...disabled (restricted).
@@ -294,11 +261,10 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   \includegraphics[width=90mm]{yomi.png}
+l.71   \includegraphics[width=50mm]{yomi.png}
                                              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? r
+OK, entering \nonstopmode...
 
 ! LaTeX Error: Cannot determine size of graphic in yomi.xbb (no BoundingBox).
 
@@ -306,7 +272,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71   \includegraphics[width=90mm]{yomi.png}
+l.71   \includegraphics[width=50mm]{yomi.png}
                                              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -324,7 +290,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79   \includegraphics[width=90mm]{voca.png}
+l.79   \includegraphics[width=50mm]{voca.png}
                                              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -336,15 +302,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79   \includegraphics[width=90mm]{voca.png}
+l.79   \includegraphics[width=50mm]{voca.png}
                                              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: voca.png Graphic file (type bmp)
 <voca.png>
-runsystem(extractbb grammar.png)...disabled (restricted).
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+runsystem(extractbb grammar.png)...disabled (restricted).
 
 
 ! LaTeX Error: File `grammar.xbb' not found. Use -shell-escape option to genera
@@ -354,7 +322,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87   \includegraphics[width=90mm]{grammar.png}
+l.87   \includegraphics[width=50mm]{grammar.png}
                                                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -367,15 +335,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87   \includegraphics[width=90mm]{grammar.png}
+l.87   \includegraphics[width=50mm]{grammar.png}
                                                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: grammar.png Graphic file (type bmp)
 <grammar.png>
-runsystem(extractbb term.png)...disabled (restricted).
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+runsystem(extractbb term.png)...disabled (restricted).
 
 
 ! LaTeX Error: File `term.xbb' not found. Use -shell-escape option to generate 
@@ -385,7 +355,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95   \includegraphics[width=90mm]{term.png}
+l.95   \includegraphics[width=50mm]{term.png}
                                              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -397,15 +367,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95   \includegraphics[width=90mm]{term.png}
+l.95   \includegraphics[width=50mm]{term.png}
                                              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: term.png Graphic file (type bmp)
 <term.png>
-runsystem(extractbb dfa.png)...disabled (restricted).
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+runsystem(extractbb dfa.png)...disabled (restricted).
 
 
 ! LaTeX Error: File `dfa.xbb' not found. Use -shell-escape option to generate a
@@ -415,7 +387,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103   \includegraphics[width=90mm]{dfa.png}
+l.103   \includegraphics[width=50mm]{dfa.png}
                                              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -427,15 +399,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103   \includegraphics[width=90mm]{dfa.png}
+l.103   \includegraphics[width=50mm]{dfa.png}
                                              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: dfa.png Graphic file (type bmp)
 <dfa.png>
-runsystem(extractbb dic.png)...disabled (restricted).
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+runsystem(extractbb dic.png)...disabled (restricted).
 
 
 ! LaTeX Error: File `dic.xbb' not found. Use -shell-escape option to generate a
@@ -445,7 +419,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111   \includegraphics[width=90mm]{dic.png}
+l.111   \includegraphics[width=50mm]{dic.png}
                                              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -457,15 +431,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111   \includegraphics[width=90mm]{dic.png}
+l.111   \includegraphics[width=50mm]{dic.png}
                                              
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: dic.png Graphic file (type bmp)
 <dic.png>
-runsystem(extractbb dict.png)...disabled (restricted).
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+runsystem(extractbb dict.png)...disabled (restricted).
 
 
 ! LaTeX Error: File `dict.xbb' not found. Use -shell-escape option to generate 
@@ -475,7 +451,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119   \includegraphics[width=90mm]{dict.png}
+l.119   \includegraphics[width=50mm]{dict.png}
                                               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -487,74 +463,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119   \includegraphics[width=90mm]{dict.png}
+l.119   \includegraphics[width=50mm]{dict.png}
                                               
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: dict.png Graphic file (type bmp)
-<dict.png> [2]
-runsystem(extractbb generate.png)...disabled (restricted).
+<dict.png>
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-! LaTeX Error: File `generate.xbb' not found. Use -shell-escape option to gener
-ate automatically.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163   \includegraphics[width=90mm]{generate.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in generate.xbb (no BoundingBox
-).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163   \includegraphics[width=90mm]{generate.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: generate.png Graphic file (type bmp)
-<generate.png>
-runsystem(extractbb voice.png)...disabled (restricted).
-
-
-
-! LaTeX Error: File `voice.xbb' not found. Use -shell-escape option to generate
- automatically.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186   \includegraphics[width=90mm]{voice.png}
-                                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Cannot determine size of graphic in voice.xbb (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.186   \includegraphics[width=90mm]{voice.png}
-                                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: voice.png Graphic file (type bmp)
-<voice.png>
+[2]
 runsystem(extractbb ninshiki.png)...disabled (restricted).
 
 
@@ -566,7 +485,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202   \includegraphics[width=90mm]{ninshiki.png}
+l.140   \includegraphics[width=50mm]{ninshiki.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -579,15 +498,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202   \includegraphics[width=90mm]{ninshiki.png}
+l.140   \includegraphics[width=50mm]{ninshiki.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: ninshiki.png Graphic file (type bmp)
-<ninshiki.png> [3]
-runsystem(extractbb konpairu.png)...disabled (restricted).
+<ninshiki.png>
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+runsystem(extractbb konpairu.png)...disabled (restricted).
 
 
 ! LaTeX Error: File `konpairu.xbb' not found. Use -shell-escape option to gener
@@ -597,7 +518,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210   \includegraphics[width=90mm]{konpairu.png}
+l.148   \includegraphics[width=50mm]{konpairu.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -610,24 +531,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210   \includegraphics[width=90mm]{konpairu.png}
+l.148   \includegraphics[width=50mm]{konpairu.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: konpairu.png Graphic file (type bmp)
-<konpairu.png> [4] [5] [6] [7] [8] [9] [10] [11] (./tkk2015.aux)
+<konpairu.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3] [4] [5] [6] [7] (./tkk2015.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1773 strings out of 495129
- 20144 string characters out of 6182594
- 77578 words of memory out of 5000000
- 5108 multiletter control sequences out of 15000+600000
+ 1770 strings out of 495129
+ 20100 string characters out of 6182594
+ 76578 words of memory out of 5000000
+ 5106 multiletter control sequences out of 15000+600000
  19070 words of font info for 87 fonts, out of 8000000 for 9000
  85 hyphenation exceptions out of 8191
- 27i,6n,26p,470b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,6n,26p,455b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tkk2015.dvi (11 pages, 11016 bytes).
+Output written on tkk2015.dvi (7 pages, 8848 bytes).
